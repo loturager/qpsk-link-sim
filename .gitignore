@@ -1,15 +1,13 @@
 # MATLAB
 *.asv
 *.m~
-*.autosave
-slprj/
-*.slxc
-*.slx.r*
-*.p
-*.mex*
 *.mat
+*.mex*
+slprj/
+codegen/
 
 # OS / Editor
 .DS_Store
 Thumbs.db
+desktop.ini
 .vscode/
