@@ -1,14 +1,38 @@
+# \# QPSK Link Simulation (MATLAB)
 
-# QPSK Link Simulation (MATLAB)
+# 
 
-Baseband simulation of a digital wireless link using QPSK modulation.
+# End-to-end digital link simulation:
 
-## Scope
-- Message to bits
-- QPSK modulation/demodulation
-- Frame and preamble (planned)
-- Pulse shaping and synchronization (planned)
-- Frequency offset simulation and correction (planned)
+# \- Message → bits → QPSK symbols
 
-## Status
-Step 01: QPSK + AWGN loopback
+# \- Framing + preamble
+
+# \- Pulse shaping (RRC), AWGN, CFO/phase offset
+
+# \- Frame detection + CFO/phase correction
+
+# \- Demod + message recovery
+
+# 
+
+# \## How to run
+
+# Open MATLAB and run:
+
+# \- `scripts/run\_demo.m`
+
+# 
+
+# \## Project structure
+
+# \- `src/` core functions
+
+# \- `scripts/` runnable demos
+
+# \- `docs/` explanations
+
+# \- `results/` plots (BER, constellation)
+
+
+
